@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<script src="assets/javascript/app.js"></script>
+
+</head>
+<body>
+
+	<div id="startContainer">
+		<h1 class="triviaName">The Office Trivia!</h1>
+		<br>
+		<button id="start" type="button" class="btn btn-outline-primary">Start</button>
+
+	</div>
+
+	<div id="gameContainer">
+		<h1 class="triviaName">The Office Trivia!</h1>
+		<br>
+		<h2 class="timeRemaining">Time Remaining: <span id="display">120 Seconds</span></h2>
+		<br>
+		<h2 class="questions">1. In S1E2 "Diversity Day": What famous comedian's stand up routine does Michael imitate?</h2>
+			<div class="style">
+			<input type="radio" name="q1" value="Chris Rock">Chris Rock
+			<input type="radio" name="q1" value="Richard Pryor">Richard Pryor
+			<input type="radio" name="q1" value="Robin Williams">Robin Williams
+			<input type="radio" name="q1" value="George Carlin">George Carlin
+			</div>
+		<h2 class="questions">2. In S1E3 "HealthCare": Which of these is NOT one of Jim and Pam's made up diseases?</h2>
+			<div class="style">
+			<input type="radio" name="q2" value="Killer nanorobots">Killer nanorobots
+			<input type="radio" name="q2" value="Hot dog fingers">Hot dog fingers
+			<input type="radio" name="q2" value="Spontaneous dental hydroplosion">Spontaneous dental hydroplosion
+			<input type="radio" name="q2" value="Hair cancer">Hair cancer
+			</div>
+		<h2 class="questions">3. In S2E3 "Office Olympics": What does Pam name "Box of paper snowshoe racing"?</h2>
+			<div class="style">
+			<input type="radio" name="q3" value="Icelandic Snowshoe Racing">Icelandic Snowshoe Racing
+			<input type="radio" name="q3" value="Flonkerton">Flonkerton
+			<input type="radio" name="q3" value="Bixing">Biking
+			<input type="radio" name="q3" value="Pegerhosen">Pegerhosen
+			</div>
+		<h2 class="questions">4. In S3E1 "Gay Witch Hunt": What is Andy's nickname for Jim?</h2>
+			<div class="style">
+			<input type="radio" name="q4" value="Jimbo">Jimbo
+			<input type="radio" name="q4" value="Fat Halpert">Fat Halpert
+			<input type="radio" name="q4" value="Jimothy">Jimothy
+			<input type="radio" name="q4" value="Big Tuna">Big Tuna
+			</div>
+		<h2 class="questions">5. In S3E21 "Women's Appreciation": Who gets flashed in the parking lot?</h2>
+			<div class="style">
+			<input type="radio" name="q5" value="Meredith">Meredith
+			<input type="radio" name="q5" value="Pam">Pam
+			<input type="radio" name="q5" value="Phyllis">Phyllis
+			<input type="radio" name="q5" value="Kelly">Kelly
+			</div>
+		<h2 class="questions">6. In S4E1 "Fun Run": Dwight mercy kills Angela's cat. Name that cat.</h2>
+			<div class="style">
+			<input type="radio" name="q6" value="Sprinkles">Sprinkles
+			<input type="radio" name="q6" value="Bandit">Bandit
+			<input type="radio" name="q6" value="Garbage">Garbage
+			<input type="radio" name="q6" value="Fluffy">Fluffy
+			</div>
+		<h2 class="questions">7. In S4E9 "Dinner Party": How many vasectomies does Michael claim to have had?</h2>
+			<div class="style">
+			<input type="radio" name="q7" value="One">One
+			<input type="radio" name="q7" value="Two">Two
+			<input type="radio" name="q7" value="Three">Three
+			<input type="radio" name="q7" value="Four">Four
+			</div>
+		<h2 class="questions">8. In S4E11 "Night Out": What is the security guard's name?</h2>
+			<div class="style">
+			<input type="radio" name="q8" value="Eddie">Eddie
+			<input type="radio" name="q8" value="Hank">Hank
+			<input type="radio" name="q8" value="Edgar">Edgar
+			<input type="radio" name="q8" value="Elliot">Elliot
+			</div>
+		<h2 class="questions">9. In S5E19 "Two Weeks": What is Michael's signature cocktail?</h2>
+			<div class="style">
+			<input type="radio" name="q9" value="Orange Vod-juice-ka">Orange Vod-juice-ka
+			<input type="radio" name="q9" value="Gin and Tonic">Gin and Tonic
+			<input type="radio" name="q9" value="Scotch and Splenda">Scotch and Splenda
+			<input type="radio" name="q9" value="Cosmopolitan">Cosmopolitan
+			</div>
+		<h2 class="questions">10. In S6E1 "Gossip": Someone is rumored to be, and wonders if they might actually be, gay. Who was it?</h2>
+			<div class="style">
+			<input type="radio" name="q10" value="Jim">Jim
+			<input type="radio" name="q10" value="Dwight">Dwight
+			<input type="radio" name="q10" value="Andy">Andy
+			<input type="radio" name="q10" value="Michael">Michael
+			</div>
+		<h2 class="questions">11. in S6E10 "Shareholder Meeting": Dwight dresses up as a character for Earth Day. Name that character.</h2>
+			<div class="style">
+			<input type="radio" name="q11" value="The Green Machine">The Green Machine
+			<input type="radio" name="q11" value="The Solar Son">The Solar Son
+			<input type="radio" name="q11" value="Energy Man">Energy Man
+			<input type="radio" name="q11" value="Recyclops">Recyclops
+			</div>
+		<br>
+		<button id="end" type="button" class="btn btn-outline-primary">Done!</button>
+	</div>
+
+	<div id="endGameContainer">
+		<h1 class="triviaName">The Office Trivia!</h1>
+		<br>
+		<h2 class="allDone">All Done!</h2>
+		<br>
+		<h2 class="correct">Correct Answers: <span class="correctCounter">0</span></h2>
+		
+		<h2 class="incorrect">Incorrect Answers: <span class="incorrectCounter">0</span></h2>
+		
+		<h2 class="unanswered">Unanswered: <span class="unansweredCounter">0</span></h2>
+	</div>
+
+</body>
+</html>
