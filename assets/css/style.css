@@ -19,8 +19,8 @@ body {
 	font-family: 'Bitter', serif;
 	font-size: 50px;
 	padding: 20px;
-	color: #222;
-	text-shadow: 6px 6px 14px #555;
+	color: #2b60b5;
+	text-shadow: 2px 3px 13px #555;
 	/*font: 700 80px 'Bitter';*/
 	font-variant: small-caps;
 	/*font-family: menu;*/
@@ -55,7 +55,7 @@ body {
 }
 .timeRemaining{
 	text-align: center;
-	font-size: 40px;
+	font-size: 35px;
 }
 .questions {
 	text-align: center;
@@ -96,23 +96,32 @@ input {
 	text-align: center;
 	font-size: 40px;
 	font-variant: small-caps;
+	color: #2b60b5;
+	font-family: 'Bitter', serif;
+
 
 }
 .correct {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;
+	color: #2b60b5;
+	font-family: 'Bitter', serif;
 
 }
 .incorrect {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;
+	color: #2b60b5;
+	font-family: 'Bitter', serif;
 
 }
 .unanswered {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;
+	color: #2b60b5;
+	font-family: 'Bitter', serif;
 
 }
