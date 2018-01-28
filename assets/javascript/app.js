@@ -31,7 +31,7 @@
 			//$("#end").on("click", function() {
 				//clearInterval(intervalId);
 			//	count = 0;
-			//	return;
+				//return;
 
 			//$("#gameContainer").hide();
 			//$("#endGameContainer").show();
@@ -45,6 +45,9 @@
 			}
 		
 		}
+
+		//$("#end").on("click", function() {
+				//clearInterval(intervalId);
 
 		function run() {
 			setInterval(decrement, 1000);
