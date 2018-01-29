@@ -92,7 +92,7 @@ input {
 	background-color: rgb(216, 214, 197, 0.6);
 
 }
-.allDone {
+#allDone {
 	text-align: center;
 	font-size: 40px;
 	font-variant: small-caps;
@@ -101,7 +101,7 @@ input {
 
 
 }
-.correct {
+#correct {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;
@@ -109,7 +109,7 @@ input {
 	font-family: 'Bitter', serif;
 
 }
-.incorrect {
+#incorrect {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;
@@ -117,7 +117,7 @@ input {
 	font-family: 'Bitter', serif;
 
 }
-.unanswered {
+#unanswered {
 	text-align: center;
 	font-size: 30px;
 	font-variant: small-caps;

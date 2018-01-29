@@ -28,17 +28,20 @@
 			countDisplay--;			
 			$("#display").html(countDisplay + " Seconds");
 
-			//$("#end").on("click", function() {
-				//clearInterval(intervalId);
+			$("#end").on("click", function() {
+				countDisplay = 0;
+				return;				
+				//stats();
+				//$("#gameContainer").hide();
 			//	count = 0;
-				//return;
-
+				//return;e
+			});
 			//$("#gameContainer").hide();
 			//$("#endGameContainer").show();
 			//stats();
 		//});
 
-			if(countDisplay == 0) {
+			if(countDisplay == -1) {
 			//$("#endGameContainer").show();
 			stats();
 			$("#gameContainer").hide();
@@ -56,6 +59,7 @@
 		
 
 		function stats(){
+
 		var Q1 = $('input:radio[name="q1"]:checked').val();
 		var Q2 = $('input:radio[name="q2"]:checked').val();
 		var Q3 = $('input:radio[name="q3"]:checked').val();
